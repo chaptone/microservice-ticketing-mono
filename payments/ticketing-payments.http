@@ -1,0 +1,10 @@
+GET ticketing.dev/api/tickets
+
+###
+POST http://ticketing.dev/api/payments
+Content-Type: application/json
+
+{
+  "title": "concert",
+  "price": 10
+}

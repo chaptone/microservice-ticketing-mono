@@ -1,0 +1,27 @@
+GET ticketing.dev/api/users/signup/dsfdsf
+
+###
+
+POST ticketing.dev/api/users/signup
+Content-Type: application/json
+
+{
+  "email": "123213@test.com",
+  "password": "12321321"
+}
+
+###
+POST ticketing.dev/api/users/signin
+Content-Type: application/json
+
+{
+  "email": "123213@test.com",
+  "password": "12321321"
+}
+
+###
+GET ticketing.dev/api/users/currentuser
+
+###
+POST ticketing.dev/api/users/signout
+Content-Type: application/json

@@ -1,0 +1,20 @@
+GET ticketing.dev/api/tickets
+
+###
+
+POST ticketing.dev/api/users/signup
+Content-Type: application/json
+
+{
+  "email": "123213@test.com",
+  "password": "12321321"
+}
+
+###
+POST ticketing.dev/api/tickets
+Content-Type: application/json
+
+{
+  "title": "concert",
+  "price": 10
+}
